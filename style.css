@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Raleway:wght@300;400;500&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 245, 245);
+}
+
+.image {
+  border-radius: 10px;
+  width: 100px;
+  height: 400px;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.active {
+  width: 400px;
+}
